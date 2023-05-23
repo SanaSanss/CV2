@@ -25,16 +25,19 @@ header, footer{
     width: 100%;
     padding: 20px 0px;
     background-image: url(images/sakura2.jpg);
-    box-shadow: 0px 0px 15px #333;
+    background-repeat: repeat;
+    background-size: contain;
+    box-shadow: 0px 0px 15px black;
 }
 header{
     border-bottom: 2px solid #fff;
     height: 120px;
 }
 header h1{
-    color: white;
-    font-size: 1.5em;
-    width: 90%;
+    display: flex;
+    color: mediumvioletred;
+    font-size: 50px;
+    width: 80%;
     margin: 0 auto;
     justify-content: center;
 }
@@ -84,7 +87,7 @@ section > div{
     width: 150px;
     height: 150px;
     border: 3px solid #fff;
-    box-shadow: 0px 0px 10px #777;
+    box-shadow: 0px 0px 10px mediumvioletred;
     border-radius: 50%;
     margin-top: -65px;
 }
@@ -97,7 +100,7 @@ section > div{
     padding: 10px;
     margin: 10px auto 30px auto;
     color: #fff;
-    background-color: darkmagenta;
+    background-color: mediumvioletred;
     box-shadow: 0px 0px 10px #ccc;
     border-radius: 50px;
     width: 50%;
@@ -131,6 +134,14 @@ section > div{
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
+
+.exp-2{
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
 .exp-info{
     display: flex;
     flex-flow: column wrap;
@@ -139,6 +150,7 @@ section > div{
     flex: 0 0 25%;
     max-width: 100px;
 }
+
 .exp-info{
     flex: 0 0 70%;
     margin-left: auto;
@@ -152,6 +164,10 @@ section > div{
 .exp h4{
     font-size:  1em;
     font-weight: normal;
+}
+
+.exp-desc li{
+    list-style: none;
 }
 
 /*SECTION COMPETENCES*/
@@ -231,7 +247,7 @@ section > div{
         box-shadow: 0px 0px 10px #bbb;
     }
     a:hover{
-        color: #EA0;
+        color: salmon;
     }
     header h1{
         width: 80%;
