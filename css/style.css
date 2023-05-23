@@ -18,11 +18,13 @@ a{
     color: #000;
 }
 
+
 /*HEADER & FOOTER*/
+
 header, footer{
     width: 100%;
     padding: 20px 0px;
-    background: url("https://www.pierre-giraud.com/wp-content/uploads/2019/07/cv-cover.jpg") #4f4f4f;
+    background-image: url(images/sakura2.jpg);
     box-shadow: 0px 0px 15px #333;
 }
 header{
@@ -34,6 +36,7 @@ header h1{
     font-size: 1.5em;
     width: 90%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 footer{
@@ -49,7 +52,9 @@ footer a{
     color: #fff;
 }
 
+
 /*SECTIONS*/
+
 section{
     display: flex; 
     flex-flow: row wrap;
@@ -69,7 +74,9 @@ section > div{
     width: 90%;
 }
 
+
 /*SECTION INFOS*/
+
 .photo{
     text-align: center;
 }
@@ -79,7 +86,7 @@ section > div{
     border: 3px solid #fff;
     box-shadow: 0px 0px 10px #777;
     border-radius: 50%;
-    margin-top: -80px;
+    margin-top: -65px;
 }
 .prez{
     border-bottom: 2px dashed #ccc;
@@ -90,9 +97,10 @@ section > div{
     padding: 10px;
     margin: 10px auto 30px auto;
     color: #fff;
-    background-color: #EA0;
+    background-color: darkmagenta;
     box-shadow: 0px 0px 10px #ccc;
-    border-radius: 5px;
+    border-radius: 50px;
+    width: 50%;
 }
 .contact-flex{
     display: flex;
@@ -216,6 +224,7 @@ section > div{
 }
 
 /*VERSION BUREAU DU CV*/
+
 @media screen and (min-width: 980px){
     section{
         width: 80%;
